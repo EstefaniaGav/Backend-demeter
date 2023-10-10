@@ -39,7 +39,7 @@ export const getpurchasedetail = async (req, res) => {
             ID_DETALLE_COMPRAS: id
             }, include: {
                 model: supplies,
-                attributes: ['Cantidad_Insumo', 'Valor_Insumo'] 
+                attributes: ['ID_INSUMOS', 'Cantidad_Insumo', 'Valor_Insumo'] 
 
             }
         });

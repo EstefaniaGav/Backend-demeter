@@ -15,5 +15,7 @@ export const detail_shopping = sequelize.define('DETALLE_COMPRAS', {
         type: DataTypes.DECIMAL(10, 2),
         required: true
     }
+
 });
+
 
